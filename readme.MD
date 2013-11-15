@@ -27,7 +27,7 @@ Use the access token
 If the response is succesfull, JSON will be return, otherwise it will return the error.
 
 
-## Requirements
+## Dependencies
 
 This library only needs one other library:
 
