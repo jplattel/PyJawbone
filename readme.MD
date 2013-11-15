@@ -29,6 +29,6 @@ If the response is succesfull, JSON will be return, otherwise it will return the
 
 ## Dependencies
 
-This library only needs one other library:
+This library has one dependency:
 
 	requests
