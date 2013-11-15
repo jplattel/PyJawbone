@@ -46,7 +46,7 @@ class JawboneAPI():
 		# for other parameters, look at: https://jawbone.com/up/developer/endpoints/
 		u = 'https://jawbone.com'
 		u += endpoint #endpoint # Change this to the endpoint you want 
-		headers = {'content-type': 'application/json', 'Authorization: Bearer ': access_token}
+		headers = {'content-type': 'application/json', 'Authorization:': 'Bearer ' + access_token}
 		res = requests.get(u, headers=headers)
 		if res.status_code == 200:
 			return json.loads(res)
