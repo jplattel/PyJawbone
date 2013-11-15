@@ -28,7 +28,7 @@ class JawboneAPI():
 		return u
 
 	# Methode for getting the access code for a user with a auth code.
-	def getAccess(self, code):
+	def getAccessToken(self, code):
 		u =  'https://jawbone.com/auth/oauth2/token?'
 		u += '&client_id=' + self.client_id
 		u += '&client_secret=' + self.client_secret
